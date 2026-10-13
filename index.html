@@ -48,6 +48,24 @@ input:not([type=range]):not([type=color]):not([type=file]),select{background:#22
 input:focus,select:focus{box-shadow:0 0 0 3px #93e6f81c;border-color:#98f6dc}
 .section{color:#a7b7d1}.badge{background:linear-gradient(105deg,#32452d,#292d48);border-color:#a8ff7b60;color:#dfffaf}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* ArenaPix blue-black atmosphere — app backgrounds only */
+:root{--aura:#3e91ff;--violet:#1652be;--cyan:#38c4ff}
+html,body{background:#030711!important}
+.shell{background:radial-gradient(ellipse 70% 55% at 82% 7%,rgba(22,89,206,.23),transparent 67%),linear-gradient(135deg,#030711,#09182f 52%,#02050b)!important}
+.rail{background:linear-gradient(180deg,#071326,#030711)!important;border-color:#193457!important}
+.topbar{background:linear-gradient(105deg,#071124,#0c2550 53%,#030913)!important;border-color:#1c3f73!important}
+.dashboard{background:radial-gradient(ellipse 58% 43% at 85% 3%,rgba(31,111,239,.30),transparent 78%),linear-gradient(135deg,#040911,#0a1c37 48%,#030711)!important}
+.dashboard:before{background:radial-gradient(ellipse at 72% 30%,rgba(31,126,255,.21),transparent 73%)!important}
+.welcome{background:radial-gradient(circle at 85% 30%,rgba(57,142,255,.43),transparent 46%),linear-gradient(117deg,#06101f,#123469 62%,#040910)!important;border-color:#2c69af!important}
+.leftpane{background:linear-gradient(180deg,#071628,#030b16)!important;border-color:#20416c!important}
+.rightpane{background:linear-gradient(180deg,#0a1b34,#040b17)!important;border-color:#20416c!important}
+.centerpane{background:radial-gradient(ellipse 76% 56% at 52% 25%,rgba(29,104,218,.32),transparent 75%),linear-gradient(180deg,#061225,#02060e)!important}
+.work{background-color:#061326!important;background-image:radial-gradient(circle at 50% 45%,rgba(29,109,230,.28),transparent 64%),radial-gradient(rgba(69,135,219,.15) 1px,transparent 1px)!important;border-color:#235293!important}
+.toolbar{background:linear-gradient(120deg,#0a1c36,#061023)!important;border-color:#214a80!important}
+.step,.template-card{border-color:#21416f!important}
+.step{background:linear-gradient(145deg,#10294a,#061121)!important}
+.template-card{background:linear-gradient(155deg,#102a50,#060f20)!important}
 </style></head><body><div class="app">
 <nav class="rail" aria-label="Glavna navigacija"><div class="brand">AP.</div><button class="railbtn active" id="navHome"><i>⌂</i>Početna</button><button class="railbtn" id="navStudio"><i>◈</i>Studio</button><button class="railbtn" id="navProjects"><i>▤</i>Projekti</button><div class="railbottom">ARENAPIX<br>V3</div></nav>
 <div class="shell">
